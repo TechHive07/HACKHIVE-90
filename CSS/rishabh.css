@@ -408,14 +408,14 @@ nav a:hover {
 }
 
 .red-box {
-    background-image: url('images/redbox.png');
+    background-image: url('/images/redbox.png');
     background-size: cover;
     background-position: 80%;
     background-repeat: no-repeat;
 }
 
 .green-box {
-    background-image: url('images/greenbox.png');
+    background-image: url('/images/greenbox.png');
     background-size: cover;
     background-position: 80%;
     background-repeat: no-repeat;
