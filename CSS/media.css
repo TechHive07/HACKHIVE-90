@@ -1,0 +1,9 @@
+@media screen and (max-width: 480px) {
+    .nav-items {
+        flex-direction: column;
+    }
+
+    .menu-bt div{
+        display: flex;
+    }
+}

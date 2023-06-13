@@ -15,6 +15,7 @@
         <link rel="stylesheet" type="text/css" href="fonts/icomoon.css" /> -->
         <link rel="stylesheet" type="text/css" href="CSS/rishabh.css">
         <link rel="stylesheet" type="text/css" href="CSS/calendar.css">
+        <link rel="stylesheet" href="CSS/media.css">
         <link  
           rel="stylesheet"
           href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"
@@ -49,22 +50,29 @@
             <div>
                 <p class="temp">LOGO</p>
             </div>
-            <div class="d-flex g-g">
-                <a href="#About">
-                    <p>About</p>            
-                </a>
-                <a href="#">
-                    <p>Prizes</p>
-                </a>
-                <a href="#">
-                    <p>Sponsors</p>
-                </a>
-                <a href="#">
-                    <p>Venue</p>
-                </a>
-                <a href="#">
-                    Team
-                </a>
+            <div class="dc-flex">
+                <button class="menu-bt dc-flex">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </button>
+                <div class="d-flex g-g nav-items">
+                    <a href="#About">
+                        <p>About</p>            
+                    </a>
+                    <a href="#">
+                        <p>Prizes</p>
+                    </a>
+                    <a href="#">
+                        <p>Sponsors</p>
+                    </a>
+                    <a href="#">
+                        <p>Venue</p>
+                    </a>
+                    <a href="#">
+                        Team
+                    </a>
+                </div>
             </div>
         </div>
     </nav>
@@ -84,8 +92,10 @@
             <div class="d-flex">
                 <div class="col-1 w-30">
                     <div class="dc-flex a-i-e des-cont">
-                        <img class="bee" src="images/bee.png" alt="hive's bee">
-                        <h1>HACK<span>HIVE</span><center><hr></center></h1>
+                        <div class="heading-bee dc-flex">
+                            <img class="bee" src="images/bee.png" alt="hive's bee">
+                            <h1>HACK<span>HIVE</span><center><hr></center></h1>
+                        </div>
                         <h4>Coming Soon!</h4>
                         <div class="paras">
                             <p class="paras-1">Ultrices eget pretium sit <span>multi-domain</span> mi id. In commodo auctor eget congue sit. Risus, aliquam odio posuere ac in in nisl sed augue. Porta aenean egestas malesuada in pulvinar enim viverra.</p>
@@ -884,8 +894,10 @@
     </section>
 
 
-    <footer>
-        
+    <footer> 
+
     </footer>
+
+    <script src="/JS/app.js"></script>
 </body>
 </html>
