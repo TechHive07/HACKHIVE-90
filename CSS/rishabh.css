@@ -116,6 +116,10 @@ body {
 
 /* --------------------------NAVBAR-------------------------- */
 
+/* Responsive */
+
+
+
 .menu-bt {
     background-color: #111927;
     border: none;
@@ -130,6 +134,8 @@ body {
 .menu-bt div:nth-child(2) {
     margin: 1vh 0;
 }
+
+/* responsive */
 
 .cont {
     background-color: #111927;

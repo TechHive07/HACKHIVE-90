@@ -1,9 +1,147 @@
 @media screen and (max-width: 480px) {
-    .nav-items {
+
+    .index-page {
+        background-size: 300%;
+    }
+
+    /* home section */
+    .container .d-flex {
         flex-direction: column;
     }
 
-    .menu-bt div{
-        display: flex;
+    .des-cont {
+        align-items: center;
+        text-align: center;
+        width: 100vw;
+        margin-right: 0;
     }
+    
+    #home-section {
+        margin-top: 15vh;
+    }
+    
+    .heading-bee {
+        position: relative;
+    }
+    
+    .bee {
+        position: absolute;
+        right: 0%;
+        top:-45%;
+        width: calc(4vw);
+        transform: rotate(270deg);
+    }
+    
+    /* description */
+    
+    .des-cont {
+        margin-right: 0;
+    }
+
+    .paras {
+        margin: 5em 0 2em 0;
+    }
+    
+    .paras-1 {
+        margin:0 0 2em 0;
+    }
+
+    .col-1 {
+        width: 100%;
+    }
+    
+    .col-1 h1 {
+        font-size: 4em;
+        color: #FFF;
+        font-weight: 700;
+        letter-spacing: 2px;
+    }
+    
+    .col-1 h1 span {
+        color: #9FEF00;
+    }
+    
+    .col-1 h1 hr {
+        position: relative;
+        bottom: 5px;
+        width: 90%;
+        border: none;
+        border-bottom: 1px solid #9FEF00;
+    }
+    
+    .col-1 h4 {
+        font-size: 1.7em;
+        font-weight: 600;
+        color: white;
+        margin-right: 2vw;
+    }
+    
+    .col-1 p {
+        color: #A4B1CD;
+        font-size: 1.3em;
+        padding: 0 3em;
+        font-weight: 300;
+        text-align: center;
+        /* margin: 0 0 0 6em; */
+    }
+    
+
+    /* LOGO */
+
+    .col-2 {
+        margin: 2em 0;
+        transform: scale(80%);
+    }
+
+    /* home section buttons */
+
+    .btn {
+        padding: 1.3vh 0;
+        min-width: 10rem;
+        margin: 0;
+        margin-bottom: 0.06em;
+        border: 1px solid #9FEF00;
+        font-size: 1em;
+    }
+
+    .buttons {
+        grid-row-gap: 3vh;
+        right: 0vw;
+    }
+
+    .btn img {
+        display: none;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /* background */
+    #background div{
+        display: none;
+    }
+
+
+    /* domain section */
+    .dom-svg {
+        display: none;
+    }
+
+    /* TEAMS */
+    .profile_cards_div {
+        overflow-x: scroll;
+    }
+
 }
