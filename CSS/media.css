@@ -123,6 +123,13 @@
     /* DOMAIN SECTION */
 
 
+    /* TEAMS */
+
+    #teams {
+        /* display: none; */
+    }
+
+
 
     /* SOCIALS */
 
@@ -141,10 +148,15 @@
     /* SCHEDULE AND TRACKS */
 
     .st-cont {
-        display: none;
+        /* display: none; */
     }
 
 
+    /* ------FAQs------ */
+
+    .container-f {
+        padding: 0;
+    }
 
 
 
