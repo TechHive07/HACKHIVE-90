@@ -4,6 +4,12 @@
         background-size: 300%;
     }
 
+    .root {
+        /* max-width: 90vw; */
+    }
+
+    /* NAVBAR */
+
     /* home section */
     .container .d-flex {
         flex-direction: column;
@@ -113,6 +119,11 @@
         display: none;
     }
 
+
+    /* DOMAIN SECTION */
+
+
+
     /* SOCIALS */
 
     .socials {
@@ -121,7 +132,7 @@
         right: 0%;
         left: 0%;
         background-color: #111927;
-        padding: 1em 0;
+        padding: 0.6em 0;
         grid-gap: 15vw;
         z-index: 100;
     }

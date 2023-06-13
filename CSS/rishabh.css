@@ -563,6 +563,7 @@ body {
 
 .wrapper {
     display: flex;
+    grid-gap: 5vw;
     width: 90%;
     justify-content: space-around;
 }
