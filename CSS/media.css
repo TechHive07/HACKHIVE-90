@@ -113,10 +113,25 @@
         display: none;
     }
 
+    /* SOCIALS */
+
+    .socials {
+        position: fixed;
+        bottom: 0%;
+        right: 0%;
+        left: 0%;
+        background-color: #111927;
+        padding: 1em 0;
+        grid-gap: 15vw;
+        z-index: 100;
+    }
 
 
+    /* SCHEDULE AND TRACKS */
 
-
+    .st-cont {
+        display: none;
+    }
 
 
 
