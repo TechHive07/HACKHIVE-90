@@ -1,0 +1,33 @@
+body {
+    color: #fff;
+}
+
+/* HOME SECTION */
+
+#pe-home-section {
+    margin-top: 6em;
+}
+
+.pe-hs-heads h1{
+    font-size: 3em;
+    font-weight: 500;
+}
+
+.pe-hs-heads h1 hr{
+    border: none;
+    border-bottom: 1px solid #9fef00;
+    width: 90%;
+    opacity: 50%;
+}
+
+.paras {
+    text-align: center;
+    padding: 0 10em;
+    color: #a4b1cd;
+    /* font-weight: 400; */
+    font-size: 0.9em;
+}
+
+.pe-hs-heads h1 span{
+    color: #9fef00;
+}

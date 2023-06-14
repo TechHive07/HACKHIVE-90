@@ -497,19 +497,9 @@ nav a:hover {
 
 /* PAST EVENTS */
 
-/* past events  */
-
-/* html,
-body {
-  width: 100%;
-  height: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: #141d2b;
-} */
 
 .past_events {
+    margin: 5em 0 10em 0;
     row-gap: 5rem;
     /* height: 100vh; */
     display: flex;
