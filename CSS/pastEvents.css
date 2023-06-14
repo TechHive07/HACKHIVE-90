@@ -31,3 +31,41 @@ body {
 .pe-hs-heads h1 span{
     color: #9fef00;
 }
+
+
+/* PHOTOS */
+
+#photos {
+    margin: 10em 0;
+}
+
+.pe-ph-cont {
+    width: 100vw;
+    height: 80vh;
+    position: relative;
+    background-image: url("/images/techlaunchpad-1.jpg");
+    background-position: 50%;
+    background-size: cover;
+}
+
+.black {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100vw;
+    height: 100%;
+}
+
+.pe-ph-cont:hover .black {
+    width: 100%;
+    height: 100%;
+    opacity: 40%;
+    background-color: black;
+    opacity: 40%;
+}
+
+.pe-ph-cont:hover .content {
+    width: 100%;
+    height: 100%;
+    opacity: 100%;
+}
