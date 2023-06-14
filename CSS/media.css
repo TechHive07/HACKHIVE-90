@@ -128,6 +128,7 @@
 
     .primary_heading {
         font-weight: 400;
+        font-size: 2.2em;
     }
 
     .wrapper {
@@ -136,7 +137,28 @@
         width: auto;
     }
 
+    .card {
+        width: 250px;
+        height: 200px;
+    }
+
+    .card .info p {
+        font-size: 10px;
+    }
+
     /* DOMAIN SECTION */
+
+    #tech-dom {
+        margin-bottom: 0em;
+    }
+
+    .heads h2 {
+        font-size: 2.2em;
+    }
+
+    .heads p {
+        font-size: 1em;
+    }
 
     .red-box {
         /* background-position: 110%; */
@@ -173,10 +195,19 @@
 
     /* SCHEDULE AND TRACKS */
 
-    .st-cont {
-        /* display: none; */
+    .st-cont-row {
+        flex-direction: column;
+        grid-gap: 20vh;
     }
 
+    .tracks {
+        width: 100%;
+    }
+
+    .calendar-wrap {
+        max-width: 75vw;
+        font-size: 0.8rem;
+    }
 
     /* ------FAQs------ */
 
