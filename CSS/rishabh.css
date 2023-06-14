@@ -985,3 +985,47 @@ a:hover {
     background-color: #9FEF00;
     border-radius: 1rem;
 }
+
+/* faq */
+
+
+
+
+.container h1{
+  color: #fff;
+  text-align: center;
+}
+
+details{
+  background-color: #0b1018;
+  color: #fff;
+  font-size: 1.5rem;
+}
+
+summary {
+  padding: .5em 1.3rem;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;  
+  transition: height 1s ease;
+}
+
+summary::-webkit-details-marker {
+  display: none;
+}
+
+summary:after{
+  content: "\002B";
+}
+
+details[open] summary {
+    border-bottom: 1px solid #aaa;
+    margin-bottom: .5em;
+}
+
+details[open] summary:after{
+  content: "\00D7";
+}
+
+details[open] div{
+  padding: .5em 1em;
