@@ -43,29 +43,41 @@ body {
     width: 100vw;
     height: 80vh;
     position: relative;
-    background-image: url("/images/techlaunchpad-1.jpg");
-    background-position: 50%;
-    background-size: cover;
+    /* border: 5px solid white; */
 }
 
 .black {
-    position: absolute;
-    top: 0%;
-    left: 0%;
     width: 100vw;
     height: 100%;
+    background-position: 50%;
+    background-size: cover;
+    background-attachment: fixed;
 }
 
-.pe-ph-cont:hover .black {
+.content {
+    position: absolute;
     width: 100%;
-    height: 100%;
-    opacity: 40%;
-    background-color: black;
-    opacity: 40%;
+    /* height: 90%; */
+    bottom: 0%;
+    left: 0%;
+    background-color: rgba(0, 0, 0, 0.595);
+    padding: 2em;
+    opacity: 0;
+    transition: all 0.5s ease-in-out;
+}
+
+.content h1 {
+    font-size: 3em;
+    font-weight: 400;
+}
+
+.content .des {
+    padding-right: 20em;
 }
 
 .pe-ph-cont:hover .content {
-    width: 100%;
-    height: 100%;
-    opacity: 100%;
+    /* height: 100%; */
+    opacity: 1;
+    transition: all 0.5s ease-in-out;
+    
 }

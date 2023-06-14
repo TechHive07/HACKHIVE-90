@@ -120,7 +120,33 @@
     }
 
 
+    /* PAST EVENTS */
+
+    #past-events {
+        margin: 10em 0;
+    }
+
+    .primary_heading {
+        font-weight: 400;
+    }
+
+    .wrapper {
+        flex-direction: column;
+        grid-gap: 10vh;
+        width: auto;
+    }
+
     /* DOMAIN SECTION */
+
+    .red-box {
+        /* background-position: 110%; */
+        background-size: cover;
+    }
+
+    .dom-card-des {
+        font-size: 0.5em;
+        font-weight: 400;
+    }
 
 
     /* TEAMS */
