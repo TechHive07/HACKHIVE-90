@@ -4,9 +4,14 @@
     font-family: 'Poppins', sans-serif;
 }
 
+html {
+    overflow-x: hidden;
+}
+
 body {
     background-color: #141D2B;
     /* cursor: url("images/beecur.png"), auto; */
+    overflow-x: hidden;
 }
 
 .index-page {
@@ -114,59 +119,66 @@ body {
 }
 
 
-/* --------------------------NAVBAR-------------------------- */
+/* ==============================================
+   ------------------- NAVBAR -------------------- 
+   ==============================================  */
 
-/* Responsive */
+.header {
+    background-color: #111927;
+    padding: 0.5rem 5.5rem;
+}
 
+.main-logo {
+    width: 5%;
+}
 
+.navbar-list {
+    list-style: none;
+    gap: 4.8rem;
+}
+
+.navbar-link:link,
+.navbar-link:visited {
+    display: inline-block;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 0.9rem;
+    color: #a4b1cd;
+    transition: all 0.3s;
+}
+
+.navbar-link:hover,
+.navbar-link:active {
+    color: #FFF;
+}
+
+.menu-bt-cont {
+    display: none;
+    background: transparent;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+}
 
 .menu-bt {
-    background-color: #111927;
-    border: none;
+    width: 2rem;
+    height: 2rem;
+    color: #a4b1cd;
 }
 
-.menu-bt div {
-    display: none;
-    width: 20px;
-    border-bottom: 2px solid #a4b1cd5f;
-}
 
-.menu-bt div:nth-child(2) {
-    margin: 1vh 0;
-}
 
-/* responsive */
 
-.cont {
-    background-color: #111927;
-    padding: 1.5em 7vw;
-}
 
-.temp {
-    font-size: 1.4em;
-    font-weight: 500;
-    color: #9FEF00;
-}
 
-nav a {
-    text-decoration: none;
-    color: #A4B1CD;
-    font-size: 0.9em;
-    transition: all 0.4s cubic-bezier(0.215, 0.610, 0.355, 1);
-}
 
-nav a p{
-    letter-spacing: 1px;
-}
 
-nav a:hover {
-    color: #FFF;
-    transition: all 0.4s cubic-bezier(0.215, 0.610, 0.355, 1);
-}
 
-.g-g {
-    grid-gap: 3vw;
-}
+
+
+
+
+
 
 
 /* -------------------HOME_SECTION------------------------ */

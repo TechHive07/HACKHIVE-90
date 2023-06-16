@@ -45,37 +45,22 @@
 </head>
 
 <body class="index-page">
-    <nav id="navbar">
-        <div class="cont d-flex j-c-sb">
-            <div>
-                <p class="temp">LOGO</p>
-            </div>
-            <div class="dc-flex">
-                <button class="menu-bt dc-flex">
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                </button>
-                <div class="d-flex g-g nav-items">
-                    <a href="#About">
-                        <p>About</p>
-                    </a>
-                    <a href="#past-events">
-                        <p>Past Events</p>
-                    </a>
-                    <a href="#sponsors">
-                        <p>Sponsors</p>
-                    </a>
-                    <a href="#">
-                        <p>Prizes</p>
-                    </a>
-                    <a href="#teams">
-                        <p>Team</p>
-                    </a>
-                </div>
-            </div>
+    <header class="header d-flex j-c-sb">
+        <img class="main-logo" src="images/discord (1).png" alt="HackHive-Logo">
+
+        <nav class="navbar">
+            <ul class="navbar-list d-flex">
+                <li><a class="navbar-link" href="#home-section">About</a></li>
+                <li><a class="navbar-link" href="#past-events">Past Events</a></li>
+                <li><a class="navbar-link" href="#sponsors-and-partners">Past Sponsors</a></li>
+                <li><a class="navbar-link" href="#teams">Teams</a></li>
+            </ul>
+        </nav>
+
+        <div class="menu-bt-cont">
+            <ion-icon class="menu-bt" name="menu-outline"></ion-icon>
         </div>
-    </nav>
+    </header>
 
 
     <div class="root">
@@ -187,7 +172,7 @@
                         <!-- card 2-->
                         <div class="card">
                             <!--Web wizard-->
-                            <img src="./images/event2.jpeg" alt="">
+                            <img src="./images/Events/web wizard.jpeg" alt="">
                             <div class="info">
                                 <h1>Web-Wizard</h1>
                                 <p>Wingardium Leviosa!!! Speaking of witch, Our Wizards stepped right into the magical
@@ -199,14 +184,13 @@
                         </div>
                         <!-- card 3 -->
                         <div class="card">
-                            <!--Code rush X-->
-                            <img src="./images/event3.jpeg" alt="">
+                            <!--GCCP-->
+                            <img src="/images/Events/GCCP.jpg" alt="">
                             <div class="info">
-                                <h1>Code Rush X</h1>
-                                <p>For all the developers, programmers, and computer science enthusiasts who enjoy
-                                    challenging themselves, wanting to test their coding skills or would like to compare
-                                    their knowledge and abilities with others, GDSC-SDSF in collaboration with Newton
-                                    School had brought a coding contest "Code Rush X".</p>
+                                <h1>GCCP</h1>
+                                <p>Google Cloud Career Practitioners (GCCP) was a great opportunity to learn cloud
+                                    technologies and their application with Google's very own curated learning paths and
+                                    hands-on labs.</p>
                                 <a href="#" class="btn">Read More</a>
                             </div>
                         </div>
@@ -218,16 +202,18 @@
                     <div class="wrapper">
                         <!-- card 1 -->
                         <div class="card">
-                            <!--GCCP-->
-                            <img src="/images/Events/GCCP.jpg" alt="">
+                            <!--Code rush X-->
+                            <img src="./images/Events/coderush.jpeg" alt="">
                             <div class="info">
-                                <h1>GCCP</h1>
-                                <p>Google Cloud Career Practitioners (GCCP) was a great opportunity to learn cloud
-                                    technologies and their application with Google's very own curated learning paths and
-                                    hands-on labs.</p>
+                                <h1>Code Rush</h1>
+                                <p>For all the developers, programmers, and computer science enthusiasts who enjoy
+                                    challenging themselves, wanting to test their coding skills or would like to compare
+                                    their knowledge and abilities with others, GDSC-SDSF in collaboration with Newton
+                                    School had brought a coding contest "Code Rush X".</p>
                                 <a href="#" class="btn">Read More</a>
                             </div>
                         </div>
+
                         <!-- card 2-->
                         <div class="card">
                             <!--Web3Titans-->
@@ -243,7 +229,7 @@
                         <!-- card 3 -->
                         <div class="card">
                             <!--Web dev simplified-->
-                            <img src="./images/event3.jpeg" alt="">
+                            <img src="./images/Events/webdevsimpli.jpeg" alt="">
                             <div class="info">
                                 <h1>Web Dev Simplified</h1>
                                 <p>Webdev simplified was an excellent inception point for web development and building your personal project. The event was not only informative but also encouraging, thanks to the speaker's deep knowledge and bond with the audience. Their insights and perspectives were thought-provoking and provided valuable takeaways for everyone in attendance.</p>
@@ -253,16 +239,18 @@
                     </div>
                 </div>
 
-                <a href="pastevents.html">
+                <!-- <a href="pastevents.html">
                     <button style="padding: 0.6em 0;" class="btn mt2">
                         <p>View More</p>
                     </button>
-                </a>
+                </a> -->
+
+                <h2 style="font-weight: 400; color: #a4b1cd;">More on the Way!</h2>
             </div>
         </section>
 
 
-        <section id="sponsors-and-partners d-flex a-i-c">
+        <section id="sponsors-and-partners">
             <div style="margin: 0 0 5em 0;" class="dc-flex heads">
                 <h2 style="padding: 0 2em;"><span style="color:#9fef00;">Previous</span> Sponsors and Partners</h2>
             </div>
@@ -1035,7 +1023,7 @@
                     <div class="profile-card">
                         <div class="img">
                             <img
-                                src="/images/team/aman.jpg">
+                                src="/images/team/divya2.png">
                         </div>
                         <div class="caption">
                             <h3>Tom Cruise</h3>
@@ -1187,6 +1175,8 @@
     </div>
 
     <script src="/JS/app.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 </body>
 
 </html>

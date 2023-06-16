@@ -22,10 +22,11 @@ body {
 
 .paras {
     text-align: center;
-    padding: 0 10em;
+    /* padding: 0 10em; */
     color: #a4b1cd;
+    margin-top: 1em;
     /* font-weight: 400; */
-    font-size: 0.9em;
+    font-size: 1.5em;
 }
 
 .pe-hs-heads h1 span{
@@ -34,50 +35,3 @@ body {
 
 
 /* PHOTOS */
-
-#photos {
-    margin: 10em 0;
-}
-
-.pe-ph-cont {
-    width: 100vw;
-    height: 80vh;
-    position: relative;
-    /* border: 5px solid white; */
-}
-
-.black {
-    width: 100vw;
-    height: 100%;
-    background-position: 50%;
-    background-size: cover;
-    background-attachment: fixed;
-}
-
-.content {
-    position: absolute;
-    width: 100%;
-    /* height: 90%; */
-    bottom: 0%;
-    left: 0%;
-    background-color: rgba(0, 0, 0, 0.595);
-    padding: 2em;
-    opacity: 0;
-    transition: all 0.5s ease-in-out;
-}
-
-.content h1 {
-    font-size: 3em;
-    font-weight: 400;
-}
-
-.content .des {
-    padding-right: 20em;
-}
-
-.pe-ph-cont:hover .content {
-    /* height: 100%; */
-    opacity: 1;
-    transition: all 0.5s ease-in-out;
-    
-}
