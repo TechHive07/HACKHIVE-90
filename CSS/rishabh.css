@@ -160,10 +160,13 @@ body {
     justify-content: center;
 }
 
-.menu-bt {
-    width: 2rem;
-    height: 2rem;
-    color: #a4b1cd;
+.menu-bt-cont div {
+    width: 22px;
+    border: 1px solid #a4b1cd;
+}
+
+.menu-bt-cont div:nth-child(2) {
+    margin: 6px 0;
 }
 
 

@@ -44,6 +44,7 @@
     .menu-bt-cont {
         display: block;
         z-index: 1000;
+        color: #A4B1CD;
     }
     
     .active .navbar {
