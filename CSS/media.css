@@ -42,7 +42,7 @@
     }
     
     .menu-bt-cont {
-        display: flex;
+        display: block;
         z-index: 1000;
     }
     
