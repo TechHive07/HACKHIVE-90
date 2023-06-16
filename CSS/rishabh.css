@@ -500,6 +500,10 @@ nav a:hover {
 
 /* SPONSORS AND PARTNERS */
 
+.rs-sp-cont {
+    display: none;
+}
+
 .sp-cont {
     justify-content: center;
 }
@@ -696,6 +700,8 @@ nav a:hover {
 
 #teams {
     font-family: 'poppins', sans-serif;
+    margin-bottom: 5em;
+    min-height: 100vh;
 }
 
 .main {

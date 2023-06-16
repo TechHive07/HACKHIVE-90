@@ -147,6 +147,45 @@
     }
 
 
+    /* SCHEDULE AND TRACKS */
+
+    .sp-cont {
+        display: none;
+    }
+
+    .rs-sp-cont {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .co-logo {
+        width: 10vw;
+        grid-gap: 15vw;
+    }
+
+    .sp-logo {
+        width: 10vw;
+        margin-bottom: 5em;
+        color: #FFF;
+    }
+
+    .gdsc-sec .gdsc {
+        grid-gap: 15vw;
+    }
+
+    .gdsc div img {
+        width: 15vw;
+    }
+
+    .gdsc div div {
+        color: #FFF;
+        position: relative;
+        bottom: 20px;
+    }
+
+
     /* DOMAIN SECTION */
 
     #tech-dom {
@@ -155,6 +194,7 @@
 
     .heads h2 {
         font-size: 2.2em;
+        font-weight: 400;
     }
 
     .heads p {
@@ -176,6 +216,7 @@
 
     #teams {
         /* display: none; */
+        max-height: 100vh;
     }
 
 
