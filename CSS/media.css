@@ -195,6 +195,7 @@
     .heads h2 {
         font-size: 2.2em;
         font-weight: 400;
+        text-align: center;
     }
 
     .heads p {
@@ -217,6 +218,10 @@
     #teams {
         /* display: none; */
         max-height: 100vh;
+    }
+
+    .res-team {
+        display: none;
     }
 
 
